@@ -6,7 +6,29 @@
         "resumo": "Como comecei a estudar programação e os principais conhecimentos que adquiri durante minha trajetória.",
         "categoria": "Carreira",
         "data": "2026-11-03",
-        "tempoLeitura": 4
+        "tempoLeitura": 4,
+        "conteudo": [
+            {
+                "tipo": "paragrafo",
+                "texto": "Minha jornada na programação começou com o interesse em entender como os sistemas e aplicações funcionam."
+            },
+            {
+                "tipo": "titulo",
+                "texto": "O início dos estudos"
+            },
+            {
+                "tipo": "paragrafo",
+                "texto": "Durante minha formação, tive contato com diversas linguagens de programação, como Java, C#, Python e JavaScript."
+            },
+            {
+                "tipo": "titulo",
+                "texto": "Aprendizado contínuo"
+            },
+            {
+                "tipo": "paragrafo",
+                "texto": "Acredito que desenvolver projetos práticos é uma das melhores maneiras de consolidar conhecimentos e evoluir como desenvolvedor."
+            }
+        ]
     },
     {
         "id": 2,
@@ -14,7 +36,21 @@
         "resumo": "Uma introdução aos conceitos de APIs REST, requisições HTTP e comunicação entre aplicações.",
         "categoria": "Desenvolvimento Web",
         "data": "2026-11-03",
-        "tempoLeitura": 6
+        "tempoLeitura": 6,
+        "conteudo": [
+            {
+                "tipo": "paragrafo",
+                "texto": "Uma API permite que diferentes aplicações se comuniquem e compartilhem informações."
+            },
+            {
+                "tipo": "titulo",
+                "texto": "Como funciona?"
+            },
+            {
+                "tipo": "paragrafo",
+                "texto": "Em uma API REST, o cliente realiza requisições HTTP para acessar ou modificar recursos disponibilizados pelo servidor."
+            }
+        ]
     },
     {
         "id": 3,
@@ -22,6 +58,20 @@
         "resumo": "Conheça a importância do controle de versão e como essas ferramentas auxiliam no desenvolvimento de software.",
         "categoria": "Ferramentas",
         "data": "2026-11-03",
-        "tempoLeitura": 3
+        "tempoLeitura": 3,
+        "conteudo": [
+            {
+                "tipo": "paragrafo",
+                "texto": "O Git é um sistema de controle de versão que permite acompanhar as alterações realizadas em um projeto."
+            },
+            {
+                "tipo": "titulo",
+                "texto": "O papel do GitHub"
+            },
+            {
+                "tipo": "paragrafo",
+                "texto": "O GitHub permite hospedar repositórios Git e colaborar com outros desenvolvedores."
+            }
+        ]
     }
 ]

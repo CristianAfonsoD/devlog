@@ -30,6 +30,11 @@ async function carregarArtigos() {
                 <span class="article-date">
                     ${artigo.data} • ${artigo.tempoLeitura} min de leitura
                 </span>
+
+                <a href="./pages/artigo.html?id=${artigo.id}"
+                class="text-link">
+                    Ler artigo →
+                </a>
             `;
 
             container.appendChild(card);
