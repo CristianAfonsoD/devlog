@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "titulo": "Minha jornada na programação",
+        "resumo": "Como comecei a estudar programação e os principais conhecimentos que adquiri durante minha trajetória.",
+        "categoria": "Carreira",
+        "data": "2026-11-03",
+        "tempoLeitura": 4
+    },
+    {
+        "id": 2,
+        "titulo": "Entendendo o funcionamento de uma API REST",
+        "resumo": "Uma introdução aos conceitos de APIs REST, requisições HTTP e comunicação entre aplicações.",
+        "categoria": "Desenvolvimento Web",
+        "data": "2026-11-03",
+        "tempoLeitura": 6
+    },
+    {
+        "id": 3,
+        "titulo": "Por que aprender Git e GitHub?",
+        "resumo": "Conheça a importância do controle de versão e como essas ferramentas auxiliam no desenvolvimento de software.",
+        "categoria": "Ferramentas",
+        "data": "2026-11-03",
+        "tempoLeitura": 3
+    }
+]

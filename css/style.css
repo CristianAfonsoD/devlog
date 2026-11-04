@@ -1,0 +1,239 @@
+
+:root {
+    --background: #0d1117;
+    --surface: #161b22;
+    --surface-hover: #1c2430;
+    --primary: #8b5cf6;
+    --text: #f0f2f5;
+    --text-secondary: #9ca3af;
+    --border: #30363d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+.header {
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar {
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: var(--primary);
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: var(--text-secondary);
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--primary);
+}
+
+/* Apresentação */
+
+.hero {
+    padding: 110px 0;
+}
+
+.hero-tag,
+.section-tag {
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    line-height: 1.2;
+    max-width: 750px;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: var(--primary);
+}
+
+.hero-description {
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+/* Artigos */
+
+.articles-section {
+    padding: 60px 0 90px;
+    border-top: 1px solid var(--border);
+}
+
+.section-header {
+    margin-bottom: 35px;
+}
+
+.section-header h2,
+.about-section h2 {
+    font-size: 2rem;
+    margin-top: 8px;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.article-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.article-card:hover {
+    background-color: var(--surface-hover);
+    transform: translateY(-4px);
+    border-color: var(--primary);
+}
+
+.article-category {
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.article-card h3 {
+    font-size: 1.3rem;
+    margin: 12px 0;
+}
+
+.article-card p {
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.article-date {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.loading-message {
+    color: var(--text-secondary);
+}
+
+/* Sobre */
+
+.about-section {
+    border-top: 1px solid var(--border);
+    padding: 80px 0;
+}
+
+.about-section h2 {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.about-section p:not(.section-tag) {
+    color: var(--text-secondary);
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+.text-link {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* Rodapé */
+
+.footer {
+    border-top: 1px solid var(--border);
+    padding: 25px 0;
+    color: var(--text-secondary);
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 650px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px 0;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .hero {
+        padding: 75px 0;
+    }
+
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+}
